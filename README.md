@@ -1,12 +1,11 @@
-# GTGBlog(Greentech Innovation Group)
+## Greentech Innovation Group's Blog
     Knowledge Sharing Blog for my own reference and for sharing with my friends about web development and machine learning technology.
+``` ..```
 
+### Adding Markdown Pages to Gatsby
+``` ... ```
 
-## Adding Markdown Pages to Gatsby
-```
-```
-
-### TABLE OF CONTENTS
+#### TABLE OF CONTENTS
     Read files into Gatsby from the filesystem
 ```
     Install
@@ -23,7 +22,7 @@
     Gatsby can use Markdown files to create pages in your site. You add plugins to read and understand folders with Markdown files and from them create pages automatically.
 ```
 
-## Here are the steps Gatsby follows for making this happen.
+### Here are the steps Gatsby follows for making this happen.
 ```
     Read files into Gatsby from the filesystem
     Transform Markdown to HTML and frontmatter to data
