@@ -1,6 +1,5 @@
 ## Greentech Innovation Group's Blog
     Knowledge Sharing Blog for my own reference and for sharing with my friends about web development and machine learning technology.
-``` ..```
 
 ### Adding Markdown Pages to Gatsby
 ``` ... ```
