@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -30,14 +31,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const IndexPage = () => {
-
+const IndexPage = (props) => {
+  console.log(props)
   const classes = useStyles()
   const [features, setFeatures] = React.useState(true)
   const [info, setInfo] = React.useState(true)
 
   function handleClick(id) {
-    switch(id) {
+    switch (id) {
       case "features":
         setFeatures(!features)
         break;
@@ -47,7 +48,7 @@ const IndexPage = () => {
     }
   }
 
-  return(
+  return (
     <Layout>
       <SEO title="Home" />
       <Grid container spacing={3} justify="center">
@@ -65,63 +66,83 @@ const IndexPage = () => {
         </Grid>
       </Grid>
       <Divider />
-      <List
+      {/* <List
         component="nav"
         className={classes.root}
       >
-      <ListItem id="features" button onClick={() => handleClick("features")}>
-        <ListItemIcon>
-          <StarIcon />
-        </ListItemIcon>
-        <ListItemText primary="Features" />
-        {features ? <ExpandLess /> : <ExpandMore />}
-      </ListItem>
-      <Collapse in={!features} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Material UI Framework" />
-          </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Progressive Web App" />
-          </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="SEO" />
-          </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Offline Support" />
-          </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Roboto Typeface (self hosted)" />
-          </ListItem>
-        </List>
-      </Collapse>
-      <ListItem button onClick={() => handleClick("info")}>
-        <ListItemIcon>
-          <InfoIcon />
-        </ListItemIcon>
-        <ListItemText primary="Info" />
-        {info ? <ExpandLess /> : <ExpandMore />}
-      </ListItem>
-      <Collapse in={!info} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Based on Gatsby Default Starter" />
-          </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <ListItemText primary="Uses Gatsby Material UI Plugin" />
-          </ListItem>
-        </List>
-      </Collapse>
-    </List>
+        <ListItem id="features" button onClick={() => handleClick("features")}>
+          <ListItemIcon>
+            <StarIcon />
+          </ListItemIcon>
+          <ListItemText primary="Features" />
+          {features ? <ExpandLess /> : <ExpandMore />}
+        </ListItem>
+        <Collapse in={!features} timeout="auto" unmountOnExit>
+          <List component="div" disablePadding>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Material UI Framework" />
+            </ListItem>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Progressive Web App" />
+            </ListItem>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="SEO" />
+            </ListItem>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Offline Support" />
+            </ListItem>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Roboto Typeface (self hosted)" />
+            </ListItem>
+          </List>
+        </Collapse>
+        <ListItem button onClick={() => handleClick("info")}>
+          <ListItemIcon>
+            <InfoIcon />
+          </ListItemIcon>
+          <ListItemText primary="Info" />
+          {info ? <ExpandLess /> : <ExpandMore />}
+        </ListItem>
+        <Collapse in={!info} timeout="auto" unmountOnExit>
+          <List component="div" disablePadding>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Based on Gatsby Default Starter" />
+            </ListItem>
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
+              <ListItemText primary="Uses Gatsby Material UI Plugin" />
+            </ListItem>
+          </List>
+        </Collapse>
+      </List> */}
+      
     </Layout>
   )
 }
 
 export default IndexPage
+
+
+export const pageQuery = graphql`
+query MyQuery {
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        frontmatter {
+          author
+          category
+          description
+          date
+        }
+      }
+    }
+  }
+}
+`
