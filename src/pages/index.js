@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -75,6 +75,7 @@ const IndexPage = (props) => {
         {
           edges.map((article, key) => {
             let { author, category, description, date } = article.node.frontmatter
+            let { id } = article.node
             return (
               <>
                 <ListItem button onClick={() => handleClick("info")}>
@@ -88,7 +89,12 @@ const IndexPage = (props) => {
                   <List component="div" disablePadding>
                     <ListItem button className={classes.nested}>
                       <ListItemIcon><Done /></ListItemIcon>
-                      <ListItemText primary="Based on Gatsby Default Starter" />
+                      <Grid container>
+                        <Grid item style={{ alignContent: 'right', textAlign: 'right' }}>
+                          <Link to={`/ArticleDetail`}
+                            state={{ articleid: id }} > Read More ... </Link>
+                        </Grid>
+                      </Grid>
                     </ListItem>
                   </List>
                 </Collapse>
@@ -115,11 +121,24 @@ query MyQuery {
         frontmatter {
           author
           category
-          description
+          layout
           date
+          draft
+          title
+          tags
+          description
+          path
+        }
+        internal {
+          content
+        }
+        headings {
+          value
+          depth
         }
       }
     }
   }
 }
+
 `
