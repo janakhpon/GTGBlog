@@ -33,6 +33,8 @@ const useStyles = makeStyles(theme => ({
 
 const IndexPage = (props) => {
   console.log(props)
+  const { edges } = props.data.allMarkdownRemark
+  console.log(edges)
   const classes = useStyles()
   const [features, setFeatures] = React.useState(true)
   const [info, setInfo] = React.useState(true)
@@ -66,62 +68,37 @@ const IndexPage = (props) => {
         </Grid>
       </Grid>
       <Divider />
-      {/* <List
+      <List
         component="nav"
         className={classes.root}
       >
-        <ListItem id="features" button onClick={() => handleClick("features")}>
-          <ListItemIcon>
-            <StarIcon />
-          </ListItemIcon>
-          <ListItemText primary="Features" />
-          {features ? <ExpandLess /> : <ExpandMore />}
-        </ListItem>
-        <Collapse in={!features} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Material UI Framework" />
-            </ListItem>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Progressive Web App" />
-            </ListItem>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="SEO" />
-            </ListItem>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Offline Support" />
-            </ListItem>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Roboto Typeface (self hosted)" />
-            </ListItem>
-          </List>
-        </Collapse>
-        <ListItem button onClick={() => handleClick("info")}>
-          <ListItemIcon>
-            <InfoIcon />
-          </ListItemIcon>
-          <ListItemText primary="Info" />
-          {info ? <ExpandLess /> : <ExpandMore />}
-        </ListItem>
-        <Collapse in={!info} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Based on Gatsby Default Starter" />
-            </ListItem>
-            <ListItem button className={classes.nested}>
-              <ListItemIcon><Done /></ListItemIcon>
-              <ListItemText primary="Uses Gatsby Material UI Plugin" />
-            </ListItem>
-          </List>
-        </Collapse>
-      </List> */}
-      
+        {
+          edges.map((article, key) => {
+            let { author, category, description, date } = article.node.frontmatter
+            return (
+              <>
+                <ListItem button onClick={() => handleClick("info")}>
+                  <ListItemIcon>
+                    <InfoIcon />
+                  </ListItemIcon>
+                  <ListItemText primary={description} />
+                  {info ? <ExpandLess /> : <ExpandMore />}
+                </ListItem>
+                <Collapse in={!info} timeout="auto" unmountOnExit>
+                  <List component="div" disablePadding>
+                    <ListItem button className={classes.nested}>
+                      <ListItemIcon><Done /></ListItemIcon>
+                      <ListItemText primary="Based on Gatsby Default Starter" />
+                    </ListItem>
+                  </List>
+                </Collapse>
+              </>
+            )
+          })
+        }
+
+      </List>
+
     </Layout>
   )
 }
