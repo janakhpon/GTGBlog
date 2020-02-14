@@ -10,6 +10,7 @@ tags:
   - 'Free development course'
 description: '멀티캠퍼스 4차 산업 선도인력 양성과정 면접 후기'
 author: 'Win Win Htet Kyaw'
+slug: 'gdevpost0002'
 ---
 
 온오프믹스라는 어플에서 삼성멀티캠퍼스 교육을 알게 되어서 신청하고 면접을 보고 왔다.
