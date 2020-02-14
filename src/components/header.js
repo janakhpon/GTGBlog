@@ -134,8 +134,8 @@ const Header = ({ siteTitle }) => {
             {theme.direction === 'ltr' ? (
               <ChevronLeftIcon />
             ) : (
-              <ChevronRightIcon />
-            )}
+                <ChevronRightIcon />
+              )}
           </IconButton>
         </div>
         <Divider />
@@ -148,12 +148,36 @@ const Header = ({ siteTitle }) => {
               <ListItemText>Home</ListItemText>
             </ListItem>
           </Link>
-          <Link to="/components">
+          <Link to="/PagebyTags">
             <ListItem button>
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Components</ListItemText>
+              <ListItemText>Tags</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/PagebyTypes">
+            <ListItem button>
+              <ListItemIcon>
+                <ListIcon />
+              </ListItemIcon>
+              <ListItemText>Types</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/PagebyAuthors">
+            <ListItem button>
+              <ListItemIcon>
+                <ListIcon />
+              </ListItemIcon>
+              <ListItemText>Authors</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/PagebyDates">
+            <ListItem button>
+              <ListItemIcon>
+                <ListIcon />
+              </ListItemIcon>
+              <ListItemText>Dates</ListItemText>
             </ListItem>
           </Link>
         </List>
