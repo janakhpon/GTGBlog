@@ -3,11 +3,13 @@ import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper';
 import { Link } from 'gatsby'
 
+import '../../styles/components/listitem.scss'
+
 const PageListItem = ({ article }) => {
     return (
         <Grid container spacing={2}>
             <Grid item xs={12}>
-                <Paper>
+                <Paper className="paperclass">
                     <h3>
                         <Link
                             to={`/ArticleDetail`}
@@ -16,7 +18,7 @@ const PageListItem = ({ article }) => {
                                 content: article.node.internal
                             }}
                         >
-                            {article.node.frontmatter.title}
+                            {article.node.frontmatter.title} by {article.node.frontmatter.author}
                         </Link>
                     </h3>
                 </Paper>

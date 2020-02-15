@@ -22,6 +22,8 @@ import ListItemText from '@material-ui/core/ListItemText'
 import HomeIcon from '@material-ui/icons/Home'
 import ListIcon from '@material-ui/icons/ViewList'
 
+
+import '../styles/components/header.scss'
 const drawerWidth = 240
 
 const useStyles = makeStyles(theme => ({
@@ -55,6 +57,7 @@ const useStyles = makeStyles(theme => ({
   },
   drawerPaper: {
     width: drawerWidth,
+    background: '#e0e0e0'
   },
   drawerHeader: {
     display: 'flex',
@@ -62,6 +65,7 @@ const useStyles = makeStyles(theme => ({
     padding: '0 8px',
     ...theme.mixins.toolbar,
     justifyContent: 'flex-end',
+    background: '#e0e0e0'
   },
   content: {
     flexGrow: 1,
@@ -99,11 +103,8 @@ const Header = ({ siteTitle }) => {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
-        position="fixed"
-        elevation={0}
-        className={clsx(classes.appBar, {
-          [classes.appBarShift]: open,
-        })}
+      position="fixed"
+        style={{ background: 'transparent', boxShadow: 'none', color: 'black' }}
       >
         <Toolbar>
           <IconButton
@@ -138,8 +139,8 @@ const Header = ({ siteTitle }) => {
               )}
           </IconButton>
         </div>
-        <Divider />
-        <List>
+
+        <List className="sidebar-list">
           <Link to="/">
             <ListItem button>
               <ListItemIcon>
