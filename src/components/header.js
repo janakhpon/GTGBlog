@@ -103,7 +103,7 @@ const Header = ({ siteTitle }) => {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
-      position="fixed"
+        position="fixed"
         style={{ background: 'transparent', boxShadow: 'none', color: 'black' }}
       >
         <Toolbar>
@@ -146,7 +146,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>
-              <ListItemText>Home</ListItemText>
+              <ListItemText>HOME</ListItemText>
             </ListItem>
           </Link>
           <Link to="/PagebyTags">
@@ -154,7 +154,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Tags</ListItemText>
+              <ListItemText>TAGS</ListItemText>
             </ListItem>
           </Link>
           <Link to="/PagebyTypes">
@@ -162,7 +162,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Types</ListItemText>
+              <ListItemText>CATAGORIES</ListItemText>
             </ListItem>
           </Link>
           <Link to="/PagebyAuthors">
@@ -170,7 +170,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Authors</ListItemText>
+              <ListItemText>AUTHORS</ListItemText>
             </ListItem>
           </Link>
           <Link to="/PagebyDates">
@@ -178,7 +178,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Dates</ListItemText>
+              <ListItemText>DATES</ListItemText>
             </ListItem>
           </Link>
         </List>
