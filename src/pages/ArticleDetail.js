@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import moment from 'moment'
 import Layout from '../components/layout'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
@@ -8,7 +9,7 @@ import Chip from '@material-ui/core/Chip'
 const ArticleDetail = ({ location }) => (
   <Layout>
     <h1>{location.state.frontmatter.title}</h1>
-    <h5>Published at {location.state.frontmatter.date}</h5>
+    <h5>Published {moment(location.state.frontmatter.date, 'x').format('MMMM Do YYYY, h:mm:ss a')}</h5>
     <h5>Category : {location.state.frontmatter.category} </h5>
     <h4>Author : {location.state.frontmatter.author} </h4>
 
