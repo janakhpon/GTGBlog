@@ -9,7 +9,7 @@ const PageListItem = ({ article }) => {
     return (
         <Grid container spacing={2}>
             <Grid item xs={12}>
-                <Paper className="paperclass">
+                <Paper className="paperclass" style={{boxShadow: 'none', textDecoration: 'none'}}>
                     <h3>
                         <Link
                             to={`/ArticleDetail`}

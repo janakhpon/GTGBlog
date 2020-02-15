@@ -157,7 +157,7 @@ const Header = ({ siteTitle }) => {
               <ListItemText>TAGS</ListItemText>
             </ListItem>
           </Link>
-          <Link to="/PagebyTypes">
+          <Link to="/PagebyCategory">
             <ListItem button>
               <ListItemIcon>
                 <ListIcon />
