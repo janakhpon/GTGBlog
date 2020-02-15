@@ -1,6 +1,6 @@
 ---
-title: '멀티캠퍼스 4차 산업 선도인력 양성과정 면접 후기'
-date: '2019-03-06T16:52'
+title: 'Understanding the Supernetting in Networking'
+date: 'Thursday, August 2 2019 08:30 PM'
 layout: post
 draft: false
 path: '/post002'
@@ -8,45 +8,47 @@ category: 'Other Stuff'
 tags:
   - 'Interview'
   - 'Free development course'
-description: '멀티캠퍼스 4차 산업 선도인력 양성과정 면접 후기'
+description: 'Understanding the Supernetting in Networking'
 author: 'Win Win Htet Kyaw'
 slug: 'gdevpost0002'
 ---
 
-온오프믹스라는 어플에서 삼성멀티캠퍼스 교육을 알게 되어서 신청하고 면접을 보고 왔다.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio leo, vehicula eu placerat non, cursus a urna. Pellentesque et orci non elit vehicula pulvinar. Vivamus enim sem, elementum vitae tempus sit amet, elementum lacinia est. Donec sit amet ex interdum ex maximus eleifend. Vivamus egestas est ac tellus malesuada, non egestas lorem placerat. Phasellus dictum dapibus mollis. Donec a quam ligula. Curabitur pulvinar quis neque nec imperdiet.
 
-과정에 대한 소개는 멀티캠퍼스 홈페이지(www.multicampus.co.kr)에 자세히 나와있다.
+Aliquam ut enim quis dui luctus efficitur. Praesent ac faucibus leo, id pulvinar ligula. Vestibulum laoreet, magna id dapibus maximus, leo nulla rutrum lacus, eget fermentum purus lorem in felis. Morbi efficitur odio at ligula condimentum elementum. In in laoreet mi, nec porta purus. Proin pulvinar consectetur felis sit amet vehicula. Fusce vehicula posuere lacus a porta. Curabitur tincidunt placerat lectus, non pretium lacus faucibus ac. Vivamus eu blandit nibh. Donec non mollis nulla, aliquet vulputate tellus. Nam dictum tempor turpis sed dictum. Suspendisse potenti. Nunc et dictum est, sit amet aliquam elit. Mauris finibus bibendum mauris sed luctus. Proin sed odio vulputate nibh fringilla bibendum. Nullam sit amet justo non turpis volutpat laoreet.
 
-일단 이 교육이 가장 솔깃했던 점은 공짜, 라는 점. 나 같은 비전공자가 개발에 대해 배우려고 했을 때에 선택할 수 있는 방법이 몇 개 있는데,
+Pellentesque tincidunt sapien at enim venenatis dapibus. Nunc sit amet pretium augue, nec ultrices nunc. Ut accumsan ullamcorper ultrices. Vivamus fermentum ligula ac nisi pulvinar tincidunt. Etiam et massa nec nibh elementum luctus. Vestibulum interdum nunc mauris, id eleifend felis faucibus sed. Nam eget nisl diam. In facilisis ligula et libero sodales bibendum. Mauris fermentum molestie diam vitae gravida. Donec venenatis posuere interdum.
 
-돈을 거의 안들이는 법 / 돈을 조금 들이는 법 / 돈을 많이 들이는 법으로 나눌 수 있다.
+Proin diam enim, mollis sed turpis eu, ornare pretium tellus. Integer a tempor ante. Nulla arcu urna, viverra a aliquet nec, pulvinar id elit. Aenean lectus arcu, gravida vel sapien sed, varius commodo eros. Aliquam venenatis dui ut nisl fringilla, sed accumsan mi tempus. Nam maximus nec metus sed eleifend. Integer dapibus consectetur interdum. Donec tincidunt sit amet urna dictum commodo.
 
-첫 번째는, 위와 같은 국가에서 비용 지원이 되는 교육이다. 그렇지만 일반 사설 학원 같은 곳에서 하는 국비교육은 질이 별로 좋지 않은 경우가 있다고 들었고(물론 열심히 잘 알아보고 커리큘럼 괜찮은 곳을 선택하면 괜찮은 학원에 다닐 수 있지만, 아닐 가능성도 꽤 있다는 것) 취업률을 높이기 위해 SI 알선을 많이 한다고 했다.
+Aliquam a nunc in mauris pulvinar cursus sodales vitae est. Praesent lacus magna, dictum eget dolor sit amet, tincidunt blandit nunc. Nam non tempor elit. Sed quis ultricies leo, vel ultricies erat. Sed vel porttitor massa. Morbi lorem orci, vestibulum sit amet leo non, sodales congue velit. Nullam rhoncus molestie sodales. Nullam in nibh finibus, lacinia ante sagittis, efficitur diam. Nullam pharetra tincidunt porta. Pellentesque eu maximus ex. Duis eget nisl sed tellus semper rutrum. Vestibulum eleifend convallis quam at maximus. Donec faucibus lectus dui, ut placerat magna consequat ac. Nullam ipsum neque, porta volutpat feugiat ac, auctor a diam. Nunc varius id ex ac ultricies. Morbi euismod id leo vitae sollicitudin.
 
-두 번째 돈을 조금 들이는 법은 온라인 강의를 통해 배우는 것. Udemy, Udacity, Cousera 등 저렴한 가격에 수많은 강의를 들을 수 있는 사이트들이 있다. 돈 내고 다니는 학원에 비하면 정말 정말 저렴한데다, 선택권이 아주 많아서 내가 듣고 싶은걸 골라서 들을 수 있는 점도 좋다. (물론 영어 강의가 대다수지만, 그건 개발자가 되려면 어쩔 수 없는 일이고.) 그리고 온라인으로는 freeCodeCamp, Kahn Academy, 유튜브 등 무료로 배울 수 있는 곳도 많으니 아주 괜찮은 방법이라고 생각한다.
+Donec eget lectus vulputate, semper risus a, vestibulum elit. Vivamus tincidunt maximus semper. Donec semper ante massa. Nulla facilisi. Aenean sed vulputate lorem. Integer ac urna sed ligula rhoncus iaculis. Curabitur tristique cursus neque. Sed finibus faucibus eros. Pellentesque rhoncus ligula at libero viverra consequat.
 
-세 번째는 돈을 많이 들이는 법, 부트캠프. 이곳 저곳 알아보니 대부분 한 달에 90만원 이상 돈을 내야 했다. 대부분 6개월 내외 코스인데, 그러다 보면 총 금액이 적게 잡아도 600만원 이상 나온다. (pre course말고, 취업 연계까지 되는 과정) 물론 집중적으로 모여서 공부하는 것이니 혼자할 때처럼 나태해지는 걸 방지할 수 있고, 다른 사람과 함께 하며 더 많이 물어보고 피드백받으며 배울 수도 있고, 프로젝트도 함께 진행할 수 있으니 장점이 많다. 그렇지만 나한테는 좀 부담스러운 금액이어서, 첫 번째나 두 번째 방법을 이용하기로 했다.
+Pellentesque a turpis est. Sed quis posuere massa, et pretium eros. Nulla non maximus nisl, vitae facilisis lorem. Nam sodales mauris et tortor gravida mattis. Morbi iaculis, odio id luctus feugiat, sem ipsum malesuada erat, non faucibus est turpis eu dui. Nunc sed dolor sed elit dictum luctus. Morbi a turpis sapien. Duis ac ultrices lorem. Nam feugiat leo eget velit euismod, nec interdum odio congue. Proin ut lorem turpis. Etiam sed tortor iaculis urna semper suscipit a ac metus. Phasellus et volutpat nisi. Fusce condimentum, erat vitae ullamcorper lacinia, erat lacus lacinia nisl, id mattis mauris risus sed neque. Quisque elit nisi, eleifend ac luctus sed, porta vitae lacus. Morbi rhoncus diam cursus, fringilla ipsum at, sodales purus. Aliquam non metus interdum, convallis mauris nec, ultrices est.
 
-삼성멀티캠퍼스 교육을 봤을 때, 첫 번째 방법의 장점을 갖고 있으면서 리스크는 줄였다고 생각했다. 왜냐하면 어쨌든 삼성의 교육기관이니까 어느 정도의 퀄리티를 보장할 거라 믿었고 커리큘럼도 괜찮아 보였기 때문이다. 그리고 공짜고! 그래서 <Open API를 활용한 빅데이터 전처리 시각화>과정을 신청했다. 일단 정보보안이랑 IoT보단 빅데이터 쪽을 듣고 싶었는데, Open API 과정에 프론트, 백엔드 쪽이 모두 포함되어 있어서 선택했다. 딥러닝도 좋을 것 같았지만 내가 현재 배우고 있는 프론트쪽이랑 더 연계할 수 있는 과정을 듣고 싶었다.
+Aliquam rutrum finibus fermentum. Nunc et pellentesque leo, ac vulputate urna. Nullam urna nulla, fermentum quis ullamcorper sit amet, aliquet id diam. Donec id euismod ex. Maecenas vehicula magna ac elit euismod fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis egestas rhoncus. Sed posuere, elit et vulputate pellentesque, quam sem ullamcorper nulla, rutrum imperdiet orci nulla eleifend ante. Nullam facilisis, orci quis cursus imperdiet, tortor risus consectetur dolor, quis cursus neque ante in dolor. Duis nec ornare turpis. Nunc pellentesque nunc risus, nec lacinia augue imperdiet et. Ut at ligula turpis. Integer eu odio finibus arcu imperdiet eleifend. Aliquam risus sem, aliquam a suscipit ac, iaculis vel nulla.
 
-간단하게 지원동기를 작성한 폼을 제출하니 면접 메일을 받을 수 있었고 역삼역에 있는 멀티캠퍼스 건물(멀티스퀘어)에서 면접을 봤다. 메일에 정장을 입고 오라고 해서, 좀 당황스럽긴 했는데 가보니 다른 지원자분들도 다 정장을 칼같이 입고 오셔서 거의 취업면접 분위기였다. 담당자님이 호명한 순대로 들어갔는데, 지원자가 여럿 같이 들어가고, 면접관님은(실제 질문하시는 분) 한 분이셨다.
+Praesent vel sem dictum, aliquam ipsum vitae, dapibus est. Integer mattis neque non tincidunt rutrum. Nam a aliquam dui. Nunc libero lectus, tincidunt quis metus eu, euismod rutrum sem. Aliquam non laoreet quam. Vestibulum posuere justo laoreet est consequat fringilla. Vivamus et semper turpis. Integer pretium malesuada neque, vitae ultricies ligula. Aliquam vehicula leo velit, ultricies consectetur nibh faucibus nec. Curabitur consectetur arcu luctus mi vehicula vestibulum. Curabitur vel maximus sapien, ornare faucibus mauris. Etiam eget elementum tellus. Sed ligula nulla, accumsan molestie sem mattis, suscipit bibendum sem. Curabitur nec accumsan urna. Praesent egestas eget leo sed lacinia.
 
-생각나는 면접 질문은 다음과 같다.
+Nulla blandit eget lectus commodo varius. Ut suscipit porta eros. Proin interdum fringilla arcu, sed varius tellus porta eget. Nam in euismod elit. Morbi convallis hendrerit lectus non dapibus. Aliquam imperdiet, lectus vitae blandit cursus, odio nibh placerat diam, a sagittis quam est vitae lorem. Duis sollicitudin arcu et ligula venenatis, vel vulputate quam scelerisque. Nam sit amet nulla quis dui maximus finibus. Etiam lobortis velit et iaculis sollicitudin. Praesent sapien arcu, congue quis tincidunt at, volutpat eu nulla. Aenean sit amet suscipit nisl.
 
-1. 자기 소개 및 지원 경로
+Praesent vel sem dictum.
 
-2. 지원 동기 및 가고 싶은 회사
+1. Praesent vel sem dictum
 
-- 이 교육 과정을 통해 무엇을 배우고 싶어서 지원했고, 그것을 배워서 어떤 회사에 어떤 직무로 취업하고 싶은지
+2. Praesent vel sem dictum
 
-3. 장점과 단점
+- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
 
-4. 협업 능력
+3. Praesent vel sem dictum
 
-- 교육과정에서 프로젝트를 하며 자신과 정말 안맞는 사람을 만나게 될 수도 있는데, 그런 경우에 어떻게 대처하는지
+4. Praesent vel sem dictum
 
-5. 사는 지역
+- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
 
-- 출석률 관련 참고 질문
+5. Praesent vel sem dictum
 
-딱딱한 분위기는 아니었고 편안하게 면접을 볼 수 있도록 해주셨다. 그렇지만 일단 복장이 정장이고 면접관님과 좀 떨어진 거리에 일렬로 앉아있자니 환경 자체가 형식적인 느낌이라 그런지 풀어지는 느낌은 아니었다. 면접 질문 자체도 기술에 관련된 건 하나도 없었고, 대신 면접 후 간단한 필기시험을 봤는데 정말 기초적인 내용이긴 했다. 그렇지만 전혀 모르는 사람 입장에서는 찍을 수밖에 없었다...! 예를 들어 질문: R에 대하여 틀린 것을 고르시오, 보기: 대소문자를 구분한다. 이런 식으로 아주 조금이라도 그것을 공부해봤으면 알 만한 내용이지만, R을 전혀 안 접해본 사람은 모르는 내용. 이런 식으로 문제가 나와서 아는 건 굉장히 쉽게 풀고 모르는 건 다 찍었다. 필기시험은 참고용이라고 하니, 그냥 마음 편하게 봤다.
+- Praesent vel sem dictum
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
